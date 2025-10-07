@@ -1,16 +1,25 @@
 Package: dsPUcopulaClient
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Client Utilities for Partition-of-Unity Copula Modelling in DataSHIELD
 Version: 0.1.0
-Authors@R: c(
+Authors@R: 
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      given = "Andreas",
+      family = "Mändle",
+      email = "maendle@leibniz-bips.de",
       role = c("aut", "cre")
     )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Provides client-side helper functions for interacting with the
+    dsPUcopula DataSHIELD server package. The helpers wrap the remote
+    procedures for fitting partition-of-unity copula models, estimating
+    marginal distributions, simulating copula-based samples and retrieving
+    synthetic data in a privacy-preserving manner.
+License: MIT + file LICENSE
+URL: https://github.com/bips-hb/dsPUcopulaClient
+BugReports: https://github.com/bips-hb/dsPUcopulaClient/issues
+Depends: R (>= 4.1.0)
+Imports: DSI
 Encoding: UTF-8
-LazyData: true
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+LazyData: false
